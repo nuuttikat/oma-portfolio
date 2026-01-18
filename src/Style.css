@@ -1,0 +1,95 @@
+:root {
+  --text: #fff6da;
+  --htext: #5a924f;
+  --link: #5a924f;
+  --btn: #5a924f;
+  --hbtn: #dd33ff;
+  --cbac: #303030;
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+main, section, .card {
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  background-color: #000000;
+  text-align: center;
+}
+
+.spacer {
+  border: none;
+  border-top: 1px dotted #bbb;
+  margin: 2rem 0;              
+  width: 100%;
+}
+
+.spacer2 {
+  border: none;
+  margin: 3rem 0; 
+  width: 100%;
+}
+
+body::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url("./public/imgs/nnnoise.png");
+pointer-events: none;
+opacity: 0.1;
+}
+
+.minispacer {
+  border: none;
+  margin: 0.3rem 0;              
+  width: 100%;
+}
+
+/* === Responsive Layout === */
+
+.app-container {
+  /* This creates a centered container for your content */
+  max-width: 1200px; /* Adjust this to your liking */
+  margin: 0 auto; /* This centers the container */
+  padding: 2rem;
+  
+  display: flex;
+  flex-direction: row; /* Side-by-side on desktop */
+  align-items: center; /* Align items to the center of the cross axis */
+  gap: 2rem; /* The space between the two columns */
+}
+
+.profile-app {
+  flex: 0 0 300px; /* Profile has a fixed width of 300px */
+}
+
+.main-content {
+  flex: 1; /* Main content takes up the remaining available space */
+  min-width: 0; /* Prevents overflow issues */
+}
+
+/* Media Query for smaller screens (tablets and phones) */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column; /* Stack columns vertically */
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .profile-app,
+  .main-content {
+    width: 100%;
+    flex: none; /* Reset flex properties for a simple stacked layout */
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+}
