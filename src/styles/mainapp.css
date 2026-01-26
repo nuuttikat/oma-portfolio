@@ -1,0 +1,50 @@
+.content {
+
+  max-width: 1200px; 
+  margin: 0 auto;   
+  padding: 2rem;
+  color: var(--text);
+  opacity: 0.8;
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-content {
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    color : var(--htext);
+  }
+}
+.word-highlight {
+  color: var(--htext);
+}
+
+.experience-section, .about-section, .referees-section, .contact-section, .skills-section {
+  margin-top: 2rem;
+  border: 1px solid var(--text);
+  background-color: dimgray;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.weather-card {
+  flex: 1 1 300px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--cbac);
+  border: 1px solid var(--btn);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

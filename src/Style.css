@@ -1,0 +1,93 @@
+:root {
+  --text: #fff6da;
+  --htext: #5a924f;
+  --link: #5a924f;
+  --btn: #5a924f;
+  --hbtn: #dd33ff;
+  --cbac: #303030;
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+main, section, .card {
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  background:
+    linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+    url("./public/imgs/nnnoise.png");
+  background-repeat: repeat;
+}
+
+
+
+.spacer {
+  border: none;
+  border-top: 1px dotted #bbb;
+  margin: 2rem 0;              
+  width: 100%;
+}
+
+.spacer2 {
+  border: none;
+  margin: 3rem 0; 
+  width: 100%;
+}
+
+.spacer3 {
+  border: none;
+  margin: 10rem 0; 
+  width: 100%;
+}
+
+
+
+.minispacer {
+  border: none;
+  margin: 0.3rem 0;              
+  width: 100%;
+}
+
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 2rem;
+  
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  gap: 2rem; 
+}
+
+.profile-app {
+  flex: 0 0 300px;
+}
+
+.main-content {
+  flex: 1; 
+  min-width: 0; 
+}
+
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column; 
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .profile-app,
+  .main-content {
+    width: 100%;
+    flex: none;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+}
