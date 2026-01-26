@@ -1,5 +1,21 @@
 import React from 'react';
 import '../styles/slider.css';
+import css3img from '/imgs/icon/CSS3.png';
+import githubimg from '/imgs/icon/GitHub.png';
+import htmlimg from '/imgs/icon/html.png';
+import reactimg from '/imgs/icon/React.png';
+import jsimg from '/imgs/icon/JS.png';
+import cimg from '/imgs/icon/Csharp.png';
+import mysqlimg from '/imgs/icon/mysql.png';
+import sqlimg from '/imgs/icon/SQL.png';
+import phpimg from '/imgs/icon/php.png';
+import winimg from '/imgs/icon/win.png';
+import winsimg from '/imgs/icon/wins.jpg';
+import mintimg from '/imgs/icon/mint.png';
+import ubunimg from '/imgs/icon/ubuntu.png';
+import win11img from '/imgs/icon/win.png';
+import PHP from '/imgs/icon/php.png';
+import Ubuntus from '/imgs/icon/ubuntus.jpg';
 
 
 const Slider = () => {
@@ -7,42 +23,40 @@ const Slider = () => {
     <div className="logos">
 
       <div className="logos-slide">
-        <img src="/imgs/icon/CSS3.png" alt="CSS3" />
-        <img src="/imgs/icon/GitHub.png" alt="GitHub" />
-        <img src="/imgs/icon/html.png" alt="HTML5" />
-        <img src="/imgs/icon/React.png" alt="React" />
-        <img src="/imgs/icon/JS.png" alt="JavaScript" />
-        <img src="/imgs/icon/Csharp.png" alt="C" />
-        <img src="/imgs/icon/mysql.png" alt="MySQL" />
-        <img src="/imgs/icon/SQL.png" alt="SQL" />
-        <img src="/imgs/icon/php.png" alt="PHP" />
-        <img src="/imgs/icon/win.png" alt="Windows" />
-        <img src="/imgs/icon/wins.jpg" alt="Windows Server" />
-        <img src="/imgs/icon/mint.png" alt="Linux Mint" />
-        <img src="/imgs/icon/ubuntu.png" alt="Ubuntu" />
-        <img src="/imgs/icon/ubuntus.jpg" alt="Ubuntu Server" />
-        <img src="/imgs/icon/Visual-basic.png" alt="Visual Basic" />
-        <img src="/imgs/icon/vs-code.png" alt="VS Code" />
+        <img src={css3img}></img>
+        <img src={githubimg}></img>
+        <img src={htmlimg}></img>
+        <img src={reactimg}></img>
+        <img src={jsimg}></img>
+        <img src={cimg}></img>        
+        <img src={mysqlimg}></img>
+        <img src={sqlimg}></img>        
+        <img src={phpimg}></img>
+        <img src={winimg}></img>
+        <img src={winsimg}></img>
+        <img src={mintimg}></img>
+        <img src={ubunimg}></img>
+        <img src={win11img}></img>
+
         
       </div>
       
       <div className="logos-slide">
-        <img src="/imgs/icon/CSS3.png" alt="CSS3" />
-        <img src="/imgs/icon/GitHub.png" alt="GitHub" />
-        <img src="/imgs/icon/html.png" alt="HTML5" />
-        <img src="/imgs/icon/React.png" alt="React" />
-        <img src="/imgs/icon/JS.png" alt="JavaScript" />
-        <img src="/imgs/icon/Csharp.png" alt="C" />
-        <img src="/imgs/icon/mysql.png" alt="MySQL" />
-        <img src="/imgs/icon/SQL.png" alt="SQL" />
-        <img src="/imgs/icon/php.png" alt="PHP" />
-        <img src="/imgs/icon/win.png" alt="Windows" />
-        <img src="/imgs/icon/wins.jpg" alt="Windows Server" />
-        <img src="/imgs/icon/mint.png" alt="Linux Mint" />
-        <img src="/imgs/icon/ubuntu.png" alt="Ubuntu" />
-        <img src="/imgs/icon/ubuntus.jpg" alt="Ubuntu Server" />
-        <img src="/imgs/icon/Visual-basic.png" alt="Visual Basic" />
-        <img src="/imgs/icon/vs-code.png" alt="VS Code" />
+                <img src={css3img}></img>
+        <img src={githubimg}></img>
+        <img src={htmlimg}></img>
+        <img src={reactimg}></img>
+        <img src={jsimg}></img>
+        <img src={cimg}></img>        
+        <img src={mysqlimg}></img>
+        <img src={sqlimg}></img>        
+        <img src={phpimg}></img>
+        <img src={winimg}></img>
+        <img src={winsimg}></img>
+        <img src={mintimg}></img>
+        <img src={ubunimg}></img>
+        <img src={win11img}></img>
+
       </div>
     </div>
   );

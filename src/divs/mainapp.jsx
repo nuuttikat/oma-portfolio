@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../styles/mainapp.css";
 import Slider from "../utils/Slider.jsx";
 import MediaCard from "../utils/MediaCard.jsx";
+import pehutec from "/imgs/pehutec.png";
+import kasaan from "/imgs/kasaan.png";
 
 
 
@@ -72,14 +74,14 @@ function Main() {
         <h2>Projektit</h2>
         <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
           <MediaCard
-            image="/imgs/pehutec.png"
+            image= {pehutec}
               title="Pehutec Oy - Verkkosivusto"
               link="https://www.pehutec.com/fi/"
               info="React, JavaScript, HTML, CSS"
             />
 
             <MediaCard
-              image="/imgs/kasaan.png"
+              image= {kasaan}
               title="kasaan Oy - Verkkokauppa"
               link="https://kasaan.fi/"
               info="React, JavaScript, HTML, CSS"
