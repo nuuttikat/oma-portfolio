@@ -15,7 +15,7 @@ main, section, .card {
 body {
   background:
     linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
-    url("./public/imgs/nnnoise.png");
+    url("../public/imgs/nnnoise.png");
   background-repeat: repeat;
 }
 
